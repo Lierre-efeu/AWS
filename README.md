@@ -33,6 +33,8 @@ Connecting via **EC2 Instance Connect** is a feature that enables a secure conne
 ## Method 2: SSH Client
 Connecting to an instance through **SSH Client** involves using encryption and key-pair authentication when connectung to EC2 Linux instances. This method enables us ti associate with **key pair**.
 
+*INTRODUCTION OF KEYPAIR*
+
 **Public Key** - stored on the EC2 instance and can be shared publicly
 
 **Private Key** - stored seccurely on the local machine, ensuring that only authorize users can connect to the EC2 environment

@@ -18,7 +18,7 @@ There are 4 ways of connecting to an instance. Amazon EC2 offers various methods
 
 In this workshop, let us discuss the first three ways to connect to an instance.
 
-### Method 1: EC2 Instance Connect
+## Method 1: EC2 Instance Connect
 Connecting via **EC2 Instance Connect** is a feature that enables a secure connection to your Linux instances over SSH. EC2 Instance Connect allows you to connect to your instance directly through your browser. It refers to the feature in Amazon Web Services (AWS) that enables users to connect to their EC2 instances using SSH through the AWS Management Console, without the need for a standalone SSH client. It allows you to use AWS Identity and Access Management (IAM) policies and users to control SSH access without needing to share or manage SSH keys. 
 
 **Prerequisites for installing and using EC2 Instance Connect:**
@@ -30,7 +30,7 @@ Connecting via **EC2 Instance Connect** is a feature that enables a secure conne
 5. Install an SSH client on your local computer
 6. Meet username requirements*
     
-### Method 2: SSH Client
+## Method 2: SSH Client
 Connecting to an instance through **SSH Client** involves using encryption and key-pair authentication when connectung to EC2 Linux instances. This method enables us ti associate with **key pair**.
 
 **Public Key** - stored on the EC2 instance and can be shared publicly
@@ -38,7 +38,7 @@ Connecting to an instance through **SSH Client** involves using encryption and k
 **Private Key** - stored seccurely on the local machine, ensuring that only authorize users can connect to the EC2 environment
 
 
-### Method 3: Remote Desktop Protocol (RDP)
+## Method 3: Remote Desktop Protocol (RDP)
 **Remote Desktop Protocol (RDP)** enables multiple users to connect to a window instances. Users can have separate sessions on the same server, allowing them to run different applications, access different files, and have their own desktop environments without interfering with each other’s work.
 
 **Prerequisite for Connecting Instance using RDP**
